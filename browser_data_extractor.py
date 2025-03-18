@@ -29,8 +29,8 @@ logging.basicConfig(
 )
 
 # Configuración mediante variables de entorno
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7574400169:AAHXLi2hQbs2CMbnbInso-Aw9xE_cSobaRM")
-CHAT_ID = os.getenv("CHAT_ID", "6686157223")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "BOT TOKEN")
+CHAT_ID = os.getenv("CHAT_ID", "ID")
 
 
 def safe_remove(file_path: str) -> None:
